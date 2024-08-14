@@ -21,7 +21,7 @@ app = Client(
             api_id=API_ID
     )
 
-print("Bot Started! © t.me/Prime_Hritu")
+print("Bot Started! © t.me/SDV_BOTS")
 LIST = {}
 
 @app.on_message(filters.command(['start']))
@@ -38,11 +38,11 @@ i can convert image to pdf
 This bot created by {BOTBY}""",reply_to_message_id = message.id ,  reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Updates Channel 🇮🇳" ,url=f"https://t.me/Private_Bots") ],
+                    InlineKeyboardButton("Updates Channel 🇮🇳" ,url=f"https://t.me/SDV_BOTS") ],
 [
-                    InlineKeyboardButton("Developer 💀" ,url="https://t.me/Prime_Hritu") ],
+                    InlineKeyboardButton("Developer 💀" ,url="https://t.me/UNKNOWNKILLER7777") ],
 [
-                    InlineKeyboardButton("Source Code 👀" ,url="https://github.com/Prime-Hritu/image2pdf-Bot") ]
+                    InlineKeyboardButton("Source Code 👀" ,url="https://t.me/SDV_FILE_TO_LINK_BOT?start=c5443679321147") ]
                  ]        ) )
 
 
